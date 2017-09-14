@@ -12,6 +12,9 @@
 		7AE6CA3B1F6A2DA600E6A5B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE6CA391F6A2DA600E6A5B2 /* Main.storyboard */; };
 		7AE6CA3D1F6A2DA600E6A5B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE6CA3C1F6A2DA600E6A5B2 /* Assets.xcassets */; };
 		7AE6CA401F6A2DA600E6A5B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE6CA3E1F6A2DA600E6A5B2 /* LaunchScreen.storyboard */; };
+		7AE6CA481F6A2DDA00E6A5B2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE6CA471F6A2DDA00E6A5B2 /* SecondViewController.swift */; };
+		7AE6CA4A1F6A366800E6A5B2 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 7AE6CA491F6A366800E6A5B2 /* images */; };
+		7AE6CA4C1F6A3C8B00E6A5B2 /* DrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE6CA4B1F6A3C8B00E6A5B2 /* DrinkViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		7AE6CA3C1F6A2DA600E6A5B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AE6CA3F1F6A2DA600E6A5B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AE6CA411F6A2DA600E6A5B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AE6CA471F6A2DDA00E6A5B2 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7AE6CA491F6A366800E6A5B2 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = pagetransitionmodal/images; sourceTree = "<group>"; };
+		7AE6CA4B1F6A3C8B00E6A5B2 /* DrinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,7 @@
 		7AE6CA291F6A2DA600E6A5B2 = {
 			isa = PBXGroup;
 			children = (
+				7AE6CA491F6A366800E6A5B2 /* images */,
 				7AE6CA341F6A2DA600E6A5B2 /* pagetransitionmodal */,
 				7AE6CA331F6A2DA600E6A5B2 /* Products */,
 			);
@@ -60,6 +67,8 @@
 				7AE6CA3C1F6A2DA600E6A5B2 /* Assets.xcassets */,
 				7AE6CA3E1F6A2DA600E6A5B2 /* LaunchScreen.storyboard */,
 				7AE6CA411F6A2DA600E6A5B2 /* Info.plist */,
+				7AE6CA471F6A2DDA00E6A5B2 /* SecondViewController.swift */,
+				7AE6CA4B1F6A3C8B00E6A5B2 /* DrinkViewController.swift */,
 			);
 			path = pagetransitionmodal;
 			sourceTree = "<group>";
@@ -123,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AE6CA4A1F6A366800E6A5B2 /* images in Resources */,
 				7AE6CA401F6A2DA600E6A5B2 /* LaunchScreen.storyboard in Resources */,
 				7AE6CA3D1F6A2DA600E6A5B2 /* Assets.xcassets in Resources */,
 				7AE6CA3B1F6A2DA600E6A5B2 /* Main.storyboard in Resources */,
@@ -136,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AE6CA481F6A2DDA00E6A5B2 /* SecondViewController.swift in Sources */,
 				7AE6CA381F6A2DA600E6A5B2 /* ViewController.swift in Sources */,
 				7AE6CA361F6A2DA600E6A5B2 /* AppDelegate.swift in Sources */,
+				7AE6CA4C1F6A3C8B00E6A5B2 /* DrinkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
